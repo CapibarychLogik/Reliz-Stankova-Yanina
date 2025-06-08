@@ -1,1 +1,115 @@
 
+body {
+    background-color: #ffd3b3 ;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+    color: #d2691e;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+h2, footer {
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #d2691e;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+nav {
+    font-size: 19px;
+    font-family: cursive;
+    color: #d2691e;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav a {
+    padding: 5px;
+    margin: 10px;
+
+}
+
+nav a:hover {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 8px 9px 0 #d2691e; 
+    padding: 7px; 
+    transition: 3s;
+}
+
+
+.choose {
+    font-family: cursive;
+    color: #d2691e;
+    border: 1px solid #d2691e;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.choose:hover {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 8px 9px 0;
+    padding: 7px;
+    transition: 3s;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+p {
+   font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    color: #d2691e;
+    background-color: white; border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 30px;
+    width: 960px;
+    margin: 0 auto;
+}
+
